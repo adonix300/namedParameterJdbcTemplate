@@ -1,0 +1,137 @@
+databaseChangeLog:
+  - changeSet:
+      id: 3
+      author: Danis Abdulgazizov
+      changes:
+        - insert:
+            tableName: customers
+            columns:
+              - column:
+                  name: name
+                  value: Alexey
+              - column:
+                  name: surname
+                  value: Alexeev
+              - column:
+                  name: age
+                  valueNumeric: 25
+              - column:
+                  name: phone_number
+                  value: +79225558261
+        - insert:
+            tableName: orders
+            columns:
+              - column:
+                  name: date
+                  value: 10.01.2023
+              - column:
+                  name: customer_id
+                  valueNumeric: 1
+              - column:
+                  name: product_name
+                  value: table
+              - column:
+                  name: amount
+                  valueNumeric: 4724
+  - changeSet:
+      id: 4
+      author: Danis Abdulgazizov
+      changes:
+        - insert:
+            tableName: customers
+            columns:
+              - column:
+                  name: name
+                  value: Nikita
+              - column:
+                  name: surname
+                  value: Nikitov
+              - column:
+                  name: age
+                  valueNumeric: 32
+              - column:
+                  name: phone_number
+                  value: +79228679263
+        - insert:
+            tableName: orders
+            columns:
+              - column:
+                  name: date
+                  value: 12.01.2023
+              - column:
+                  name: customer_id
+                  valueNumeric: 2
+              - column:
+                  name: product_name
+                  value: chair
+              - column:
+                  name: amount
+                  valueNumeric: 425
+  - changeSet:
+      id: 5
+      author: Danis Abdulgazizov
+      changes:
+        - insert:
+            tableName: customers
+            columns:
+              - column:
+                  name: name
+                  value: Nikolay
+              - column:
+                  name: surname
+                  value: Nikolayev
+              - column:
+                  name: age
+                  valueNumeric: 23
+              - column:
+                  name: phone_number
+                  value: +79228628375
+        - insert:
+            tableName: orders
+            columns:
+              - column:
+                  name: date
+                  value: 13.01.2023
+              - column:
+                  name: customer_id
+                  valueNumeric: 3
+              - column:
+                  name: product_name
+                  value: table
+              - column:
+                  name: amount
+                  valueNumeric: 8532
+  - changeSet:
+      id: 6
+      author: Danis Abdulgazizov
+      changes:
+        - insert:
+            tableName: customers
+            columns:
+              - column:
+                  name: name
+                  value: Alexey
+              - column:
+                  name: surname
+                  value: Alexeev
+              - column:
+                  name: age
+                  valueNumeric: 25
+              - column:
+                  name: phone_number
+                  value: +79225558261
+        - insert:
+            tableName: orders
+            columns:
+              - column:
+                  name: date
+                  value: 10.01.2023
+              - column:
+                  name: customer_id
+                  valueNumeric: 1
+              - column:
+                  name: product_name
+                  value: screen
+              - column:
+                  name: amount
+                  valueNumeric: 5333

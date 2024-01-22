@@ -1,0 +1,36 @@
+databaseChangeLog:
+- changeSet:
+    id: 2
+    author: Danis Abdulgazizov
+    changes:
+      - createTable:
+          schemaName: homework
+          tableName: orders
+          columns:
+            - column:
+                name: id
+                type: serial
+                constraints:
+                  primaryKey: true
+                  nullable: false
+            - column:
+                name: date
+                type: date
+            - column:
+                name: customer_id
+                type: int
+                constraints:
+                  foreignKeyName: fk_orders_customers
+                  references: customers(id)
+            - column:
+                name: product_name
+                type: varchar
+            - column:
+                name: amount
+                type: int
+#      - addForeignKeyConstraint:
+#          baseTableName: orders
+#          baseColumnNames: customer_id
+#          constraintName: fk_CustomerId
+#          referencedTableName: customers
+#          referencedColumnNames: id
