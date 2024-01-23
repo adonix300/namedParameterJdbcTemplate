@@ -4,7 +4,7 @@ databaseChangeLog:
       author: Danis Abdulgazizov
       changes:
         - insert:
-            tableName: customers
+            tableName: customer
             columns:
               - column:
                   name: name
@@ -19,7 +19,7 @@ databaseChangeLog:
                   name: phone_number
                   value: +79225558261
         - insert:
-            tableName: orders
+            tableName: order
             columns:
               - column:
                   name: date
@@ -38,7 +38,7 @@ databaseChangeLog:
       author: Danis Abdulgazizov
       changes:
         - insert:
-            tableName: customers
+            tableName: customer
             columns:
               - column:
                   name: name
@@ -53,7 +53,7 @@ databaseChangeLog:
                   name: phone_number
                   value: +79228679263
         - insert:
-            tableName: orders
+            tableName: order
             columns:
               - column:
                   name: date
@@ -72,7 +72,7 @@ databaseChangeLog:
       author: Danis Abdulgazizov
       changes:
         - insert:
-            tableName: customers
+            tableName: customer
             columns:
               - column:
                   name: name
@@ -87,7 +87,7 @@ databaseChangeLog:
                   name: phone_number
                   value: +79228628375
         - insert:
-            tableName: orders
+            tableName: order
             columns:
               - column:
                   name: date
@@ -106,7 +106,7 @@ databaseChangeLog:
       author: Danis Abdulgazizov
       changes:
         - insert:
-            tableName: customers
+            tableName: customer
             columns:
               - column:
                   name: name
@@ -121,7 +121,7 @@ databaseChangeLog:
                   name: phone_number
                   value: +79225558261
         - insert:
-            tableName: orders
+            tableName: order
             columns:
               - column:
                   name: date
